@@ -1,0 +1,41 @@
+:root{
+    ---color1: #11aa0e;
+    ---color2: #424242;
+    ---color3: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-left: 15px;
+}
+header h1{
+    color: var(---color1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header p{
+    margin-bottom: 40px;
+}
+.sheet-style-container{
+    margin-left: 15px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
+    width: 600px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    border: 1px solid;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    background: var(---color2);
+    color: var(---color3);
+}
