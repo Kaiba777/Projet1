@@ -1,0 +1,98 @@
+:root{
+    ---color1: #11aa0e;
+    ---color2: #424242;
+    ---color3: white;
+    ---color4: black;
+    ---color5: #f4f4f4;
+    ---color6: gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-left: 15px;
+}
+header h1{
+    color: var(---color1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header p{
+    margin-bottom: 40px;
+}
+.sheet-style-container{
+    margin-left: 15px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85px;
+    width: 600px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    border: 1px solid;
+    margin-right: 10px;
+    padding: 5px 15px 5px 15px;
+    background: var(---color2);
+    color: var(---color3);
+    width: 80px;
+}
+li a:hover:not(#style3){
+    background: var(---color4);
+}
+#style3{
+    background: var(---color1);
+}
+#style3:hover{
+    background: var(---color4);
+}
+.sheet-infos h1{
+    font-size: 2.3rem;
+    color: var(---color1);
+    margin-bottom: 15px;
+}
+.sheet-infos #top{
+    line-height: 25px;
+}
+p a{
+    color: var(---color4);
+}
+.sheet-infos h2{
+    color: var(---color1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.barre{
+    margin: 10px 15px;
+    background: var(---color5);
+    border: 1px solid var(---color6);
+}
+.barre h3{
+    margin-left: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(---color1);
+}
+.barre p{
+    margin-left: 7px;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+footer{
+}
+footer p{
+    font-size: 0.8rem;
+    margin: 2px 25px 20px 25px;
+    padding: 5px;
+}
+@media screen and(max-width: 525px){
+    li a{
+        display: block;
+    }
+}
