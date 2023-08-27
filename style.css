@@ -81,5 +81,21 @@ li a:hover:not(#style){
     margin-bottom: 15px;
 }
 .barre p{
-    margin-bottom: 15px;
+    padding-bottom: 25px;
+    padding-right: 15px;
+}
+footer{
+    border: 1px solid var(---color4);
+    background: var(---color3);
+    border-radius: 5px;
+    margin: 5px 15px 15px 15px;
+    padding: 10px;
+}
+@media screen and (max-width: 525px){
+    .sheet-style-container{
+        display: block;
+    }
+    ul a{
+        width: 100%;
+    }
 }
